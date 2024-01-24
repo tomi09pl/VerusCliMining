@@ -1,27 +1,27 @@
 {
 	"pools":[
 	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://na.luckpool.net:3960",
+		"name": "VerusPool",
+        	"url": "stratum+tcp://pool.verus.io:9998",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "VerusPool_2",
+        	"url": "stratum+tcp://pool.verus.io:9998",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://na.luckpool.net:3957",
+		"name": "VerusPool_3",
+        	"url": "stratum+tcp://pool.verus.io:9998",
 		"timeout": 150
 	}
 	],
-	"user": "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U.PHONE_FARM",
+	"user": "RCxRTQcBLRsopWrDCxaYYMo3Et3n8Aw3Lp.PHONE_FARM",
 	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "192.168.0.0/16",
+	"api-allow": "192.168.0.101",
 	"api-bind": "0.0.0.0:4068"
 }
